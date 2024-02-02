@@ -1,0 +1,90 @@
+@media(max-width: 1740px){
+    .cabecalho{
+        justify-content: center;
+        flex-direction: column;
+        padding: 55px 0;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a{
+        padding: 15px;
+    }
+
+    .home .informacoes{
+        padding: 30px;
+    }
+
+    .home .informacoes .titulo{
+        font-size: 40px;
+    }
+
+    .pedido-ja .cartao{
+        width: 70%;
+    }
+}
+
+@media(max-width: 1240px){
+    .pedido-ja{
+        padding: 100px;
+    }
+
+    .pedido-ja .cartao{
+        width: 100%;
+    }
+
+    .pedido-ja .informacoes h3{
+        font-size: 40px;
+    }
+
+    .pedido-ja .informacoes .plataformas{
+        flex-direction: column;
+    }
+
+    .botao-sociais{
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .botao-orcar{
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .pedido-ja{
+        padding: 30px;
+    }
+
+    .pedido-ja .cartao{
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .pedido-ja .informacoes h3{
+        font-size: 35px;
+    }
+
+    .pedido-ja .informacoes .plataformas{
+        flex-direction: column;
+    }
+
+    .botao-sociais{
+        margin-top: 15px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .botao-orcar{
+        width: 100%;
+    }
+}
+
+@media(max-width: 425px){
+    main::after{
+        background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, 0.4)100%, transparent 65%);
+    }
+
+    .pedido-ja .cartao .capa-da-loja{
+        max-width: 80%;
+    }
+}
